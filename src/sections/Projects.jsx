@@ -57,7 +57,7 @@ const Projects = () => {
       description: "Comprehensive task management platform with team collaboration, role-based access control, and advanced analytics. Features real-time updates, task assignments, performance tracking, and interactive dashboards with detailed insights and productivity metrics.",
       tech: ["MongoDB", "Express.js", "React", "Node.js", "Redux", "JWT Auth", "Docker", "Chart.js", "Socket.IO"],
       links: {
-        live: "#",
+        live: "/tasktracker",
         github: "https://github.com/aurelianno",
         ios: "coming-soon",
         android: "coming-soon"
