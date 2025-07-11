@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/tasktracker/:path*",
+      "destination": "https://tasktracker-plus.onrender.com/:path*"
+    }
+  ]
+} 
