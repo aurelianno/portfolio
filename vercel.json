@@ -1,8 +1,16 @@
 {
-  "rewrites": [
-    {
-      "source": "/tasktracker/:path*",
-      "destination": "https://tasktracker-plus.onrender.com/:path*"
-    }
-  ]
-} 
+    "rewrites": [
+      {
+        "source": "/tasktracker",
+        "destination": "/tasktracker/index.html"
+      },
+      {
+        "source": "/tasktracker/:path*",
+        "destination": "/tasktracker/index.html"
+      },
+      {
+        "source": "/tasktracker-api/:path*",
+        "destination": "https://tasktracker-plus.onrender.com/:path*"
+      }
+    ]
+  }
