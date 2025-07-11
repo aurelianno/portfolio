@@ -2,7 +2,7 @@ const path = require('path');
 const mongoose = require(path.join(__dirname, '../server/node_modules/mongoose'));
 
 // Hard-code MongoDB URI or get from environment
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://aureliano:Aureliano2003!@tasktrackerplus.rq20uij.mongodb.net/?retryWrites=true&w=majority&appName=TaskTrackerPlus';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/tasktracker';
 
 const Task = require(path.join(__dirname, '../server/models/Task'));
 

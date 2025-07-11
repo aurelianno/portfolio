@@ -1,4 +1,4 @@
-const MONGODB_URI = 'mongodb+srv://aureliano:Aureliano2003!@tasktrackerplus.rq20uij.mongodb.net/?retryWrites=true&w=majority&appName=TaskTrackerPlus';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/tasktracker';
 const path = require('path');
 const mongoose = require(path.join(__dirname, '../server/node_modules/mongoose'));
 const Team = require(path.join(__dirname, '../server/models/Team'));

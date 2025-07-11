@@ -14,6 +14,8 @@ build/
 .env.development.local
 .env.test.local
 .env.production.local
+.env.example
+*.env
 
 # IDE and editor files
 .vscode/
@@ -68,3 +70,22 @@ jspm_packages/
 # Temporary files
 *.tmp
 *.temp
+
+# Security and sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+secrets.json
+config/secrets.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup

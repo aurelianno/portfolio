@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 const Task = require('./models/Task');
 
-const MONGO_URI = 'mongodb+srv://aureliano:Aureliano2003!@tasktrackerplus.rq20uij.mongodb.net/?retryWrites=true&w=majority&appName=TaskTrackerPlus';
+const MONGO_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/tasktracker';
 
 async function fixTeamFields() {
   await mongoose.connect(MONGO_URI);
