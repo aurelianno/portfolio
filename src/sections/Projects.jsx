@@ -58,7 +58,7 @@ const Projects = () => {
       tech: ["MongoDB", "Express.js", "React", "Node.js", "Redux", "JWT Auth", "Docker", "Chart.js", "Socket.IO"],
       links: {
         live: "/tasktracker",
-        github: "https://github.com/aurelianno",
+        github: "https://github.com/aurelianno/tasktracker-plus",
         ios: "coming-soon",
         android: "coming-soon"
       },
